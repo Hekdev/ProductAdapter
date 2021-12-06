@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="intitules">
+        <item>Prod1</item>
+        <item>Prod2</item>
+        <item>Prod3</item>
+        <item>Prod4</item>
+        <item>Ps4</item>
+        <item>Cg-Rtx</item>
+        <item>Switch</item>
+    </string-array>
+    <string-array name="prix">
+        <item>58</item>
+        <item>106</item>
+        <item>53</item>
+        <item>420</item>
+        <item>4200</item>
+        <item>2099</item>
+        <item>3950</item>
+    </string-array>
+    <array name="idimages">
+        <item>@drawable/prod4</item>
+        <item>@drawable/prod5</item>
+        <item>@drawable/prod6</item>
+        <item>@drawable/prod7</item>
+        <item>@drawable/ps4</item>
+        <item>@drawable/rtx</item>
+        <item>@drawable/switchhv2</item>
+    </array>
+</resources>

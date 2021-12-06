@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/deletefield"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="230dp"
+        android:ems="10"
+        android:hint="Product name"
+        android:text="" />
+
+
+    <Button
+        android:id="@+id/validatedelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete"
+        tools:layout_editor_absoluteX="277dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:id="@+id/lv"/>
+
+</LinearLayout>
